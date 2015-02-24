@@ -90,7 +90,8 @@ BOARD_SEPOLICY_UNION += \
        hbtp.te \
        platform_app.te \
        dtsconfigurator.te \
-       vold.te
+       vold.te \
+       platform_app.te
 
 -include device/qcom/sepolicy/$(TARGET_BOARD_PLATFORM)/Android.mk
 
