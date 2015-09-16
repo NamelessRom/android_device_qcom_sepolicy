@@ -114,3 +114,4 @@ BOARD_SEPOLICY_UNION += sensors_test.te
 #endif
 
 -include vendor/cm/sepolicy/qcom/sepolicy.mk
+-include vendor/nameless/sepolicy/qcom/sepolicy.mk
